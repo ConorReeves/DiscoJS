@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "name": "Start",
+            "request": "launch",
+            "command": "pnpm dotenvx run -- node --experimental-detect-module src/index.js",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "node-terminal",
+            "name": "Dev-Nodemon",
+            "request": "launch",
+            "command": "pnpm dotenvx run -- nodemon --experimental-detect-module src/index.js",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

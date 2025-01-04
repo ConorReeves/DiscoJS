@@ -1,0 +1,47 @@
+{
+  "name": "discojs",
+  "version": "0.0.1",
+  "description": "a discord bot, woah.",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.32.0",
+    "discord.js": "^14.17.2",
+    "node": "^23.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^15.14.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
+    "prettier-eslint": "^16.3.0"
+  },
+  "scripts": {
+    "start": "pnpm dotenvx run -- node --experimental-detect-module src/index.js",
+    "dev": "pnpm dotenvx run -- nodemon --experimental-detect-module src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConorReeves/discojs.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "javascript",
+    "discord.js"
+  ],
+  "author": "Conor Reeves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConorReeves/discojs/issues"
+  },
+  "homepage": "https://github.com/ConorReeves/discojs#readme",
+  "prettier": {
+    "trailingComma": "none",
+    "endOfLine": "auto"
+  }
+}
